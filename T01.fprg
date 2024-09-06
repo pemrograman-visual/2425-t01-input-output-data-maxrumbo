@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="T01"/>
+        <attribute name="authors" value="Lenovo"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-09-06 11:41:14 am"/>
+        <attribute name="created" value="TGVub3ZvO0xBUFRPUC1EMU9DMjNLNjsyMDI0LTA5LTA2OzEwOjA3OjM5IGFtOzI5NjU="/>
+        <attribute name="edited" value="TGVub3ZvO0xBUFRPUC1EMU9DMjNLNjsyMDI0LTA5LTA2OzExOjQxOjE0IGFtOzE7MzA2NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="ISBN" type="String" array="False" size=""/>
+            <declare name="Judul" type="String" array="False" size=""/>
+            <declare name="Penulis" type="String" array="False" size=""/>
+            <declare name="Tahunterbit" type="Integer" array="False" size=""/>
+            <declare name="Penerbit" type="String" array="False" size=""/>
+            <declare name="Formatbukuelektronik" type="String" array="False" size=""/>
+            <declare name="Hargapembelian" type="Real" array="False" size=""/>
+            <declare name="Minimummargin" type="Real" array="False" size=""/>
+            <declare name="Stok" type="Integer" array="False" size=""/>
+            <declare name="Rating" type="Real" array="False" size=""/>
+            <input variable="ISBN"/>
+            <input variable="Judul"/>
+            <input variable="Penulis"/>
+            <input variable="Tahunterbit"/>
+            <input variable="Penerbit"/>
+            <input variable="Formatbukuelektronik"/>
+            <input variable="Hargapembelian"/>
+            <input variable="Minimummargin"/>
+            <input variable="Stok"/>
+            <input variable="Rating"/>
+            <output expression="ISBN &amp;&quot;|&quot;&amp; Judul &amp;&quot;|&quot;&amp; Penulis&amp;&quot;|&quot;&amp; TahunTerbit&amp;&quot;|&quot;&amp; Penerbit&amp;&quot;|&quot;&amp; FormatBukuElektronik&amp;&quot;|&quot;&amp; HargaPembelian&amp;&quot;|&quot;&amp; MinimumMargin &amp;&quot;|&quot;&amp; Stok &amp;&quot;|&quot;&amp; Rating" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
